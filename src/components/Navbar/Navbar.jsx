@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div
-        className={`fixed duration-700 transition-all ${
+        className={`fixed md:hidden duration-700 transition-all ${
           menu ? "right-0" : "-right-[100vw]"
         } bg-white/90 backdrop-blur-sm w-[80vw] rounded-l-3xl h-[100vh] z-50 top-0 `}
       >
